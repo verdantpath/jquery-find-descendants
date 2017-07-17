@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JQuery Find Descendants</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<p>Ut ad videntur facilisis <em>elit</em> cum. Nibh insitam erat facit
+<em>saepius</em> magna. Nam ex liber iriure et imperdiet. Et mirum eros
+iis te habent. </p>
+<p>Claram claritatem eu amet dignissim magna. Dignissim quam elit facer eros
+illum. Et qui ex esse <em>tincidunt</em> anteposuerit. Nulla nam odio ii
+vulputate feugait.</p>
+<p>In quis <em>laoreet</em> te legunt euismod. Claritatem <em>consuetudium</em>
+wisi sit velit facilisi.</p>
+<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/JavaScript">
+  // alerts total italic words found inside of <p> tags
+  alert('The 3 paragraphs in all contain ' + jQuery('p').find('em').length + ' italic words'); // This demonstrates a basic usage of the find() method, though a simple CSS ('p em') selection would also work and be a better solution in the real world.
+</script>
+</body>
+</html>
